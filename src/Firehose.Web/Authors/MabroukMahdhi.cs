@@ -10,7 +10,7 @@ namespace Firehose.Web.Authors
     {
              public string EmailAddress => "mabrouk@mahdhi.com";
 
-        public IEnumerable<Uri> FeedUris => new List<Uri>() { new Uri("http://xamabrouk.blogspot.de/rss.xml") };
+        public IEnumerable<Uri> FeedUris => new List<Uri>() { new Uri("https://www.xamabrouk.net/feed.xml") };
 
 
         public string FirstName => "Mabrouk";
@@ -19,7 +19,7 @@ namespace Firehose.Web.Authors
         public string GitHubHandle => "MabroukENG";
 
 
-        public string GravatarHash => "1f5b179abb9b9f8a34a4a9799e205c96";
+        public string GravatarHash => "ed455d0dc5298d7ebb2941b76b76cd07";
 
 
         public string LastName => "Mahdhi";
@@ -29,11 +29,11 @@ namespace Firehose.Web.Authors
         public string ShortBioOrTagLine => ", is a .Net & Xamarin apps developer @Gefasoft-Engineering GmbH";
 
 
-        public string StateOrRegion => "Tegernheim, Bayern, Germany";
+        public string StateOrRegion => "Regensburg, Bayern, Germany";
 
 
         public string TwitterHandle => "Mabrouk_MAHDHI";
 
-        public Uri WebSite => new Uri("http://xamabrouk.blogspot.de/");
+        public Uri WebSite => new Uri("http://xamabrouk.net/");
     }
 }
